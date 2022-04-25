@@ -1,4 +1,5 @@
 import './App.css';
+import ToDoForm from './components/ToDoForm';
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
       <header className="App-header">
         <h1>SIMPLE TO-DO!</h1>
       </header>
+      <ToDoForm />
     </div>
   );
 }
