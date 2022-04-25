@@ -1,13 +1,11 @@
 import './App.css';
-import ToDoForm from './components/ToDoForm';
+import ToDoList from './components/ToDoList';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>SIMPLE TO-DO!</h1>
-      </header>
-      <ToDoForm />
+      <ToDoList />
+
     </div>
   );
 }
